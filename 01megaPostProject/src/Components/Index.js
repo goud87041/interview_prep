@@ -5,8 +5,7 @@ import Container from "./Container/Container";
 import Logo from "../Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
-import SignUp from "./Signup";
-// import Signup from "../Pages/SignUp";
+import Signup from "./SignUp";
 import Login from "./Login";
 import Button from "./Button";
 import PostForm from "./post-form/PostForm";
@@ -20,7 +19,7 @@ export {
     Logo,
     LogoutBtn,
     RTE,
-    SignUp,
+    Signup,
     Login,
     Button,
     PostForm,
