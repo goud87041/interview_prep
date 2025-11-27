@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react'
 import  PostService  from '../AppWrite/config'
 import {Container, PostCard} from '../Components/Index'
 import { useSelector } from 'react-redux'
-import authService from '../AppWrite/Auth'
+// import authService from '../AppWrite/Auth'
 
 function Home() {
     const [posts, setPosts] = useState([])
