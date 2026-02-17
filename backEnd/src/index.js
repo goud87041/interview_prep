@@ -1,5 +1,20 @@
+require("dotenv").config()
+
+const express = require("express")
+
+const mongoose = require("mongoose")
 
 
- const mongooes = require("mongooes")
+const app = express()
 
- mongooes.connect()
+app.use(express.json())
+
+const port = process.env.PORT || 4000
+
+(async ()=>{
+try {
+    await mongoose.connect(process.env)
+} catch (error) {
+    
+}})()
+
