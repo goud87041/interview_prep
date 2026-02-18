@@ -5,4 +5,8 @@ const { Router } = require("express");
 
 const router = Router()
 
-const register = router.route("/register").get(register)
+const register = router.route("/register").post(register)
+
+
+
+export {register}
